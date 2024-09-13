@@ -73,6 +73,9 @@
 		047ABB902C686F3B0004DDEA /* MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSUITests.swift; sourceTree = "<group>"; };
 		047ABB922C686F3B0004DDEA /* MacOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		047ABBE32C6A06DA0004DDEA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		04F417EE2C948C8D003249D9 /* libswiftCreateML.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCreateML.tbd; path = usr/lib/swift/libswiftCreateML.tbd; sourceTree = SDKROOT; };
+		04F417EF2C948C8D003249D9 /* CreateML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CreateML.framework; path = System/Library/Frameworks/CreateML.framework; sourceTree = SDKROOT; };
+		04F417F02C948C8D003249D9 /* CreateMLComponents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CreateMLComponents.framework; path = System/Library/Frameworks/CreateMLComponents.framework; sourceTree = SDKROOT; };
 		04FF44F82C6F20A70046E384 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		04FF44FE2C746CF00046E384 /* CapturedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedImage.swift; sourceTree = "<group>"; };
 		04FF45002C746DC20046E384 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
@@ -135,6 +138,7 @@
 				047ABB852C686F3B0004DDEA /* MacOSTests */,
 				047ABB8F2C686F3B0004DDEA /* MacOSUITests */,
 				047ABB722C686F390004DDEA /* Products */,
+				04F417ED2C948C8D003249D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +207,16 @@
 				04FF45052C76DFD90046E384 /* TrainingView.swift */,
 			);
 			path = video;
+			sourceTree = "<group>";
+		};
+		04F417ED2C948C8D003249D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F417EF2C948C8D003249D9 /* CreateML.framework */,
+				04F417F02C948C8D003249D9 /* CreateMLComponents.framework */,
+				04F417EE2C948C8D003249D9 /* libswiftCreateML.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
